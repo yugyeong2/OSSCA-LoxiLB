@@ -1,7 +1,7 @@
 name: TEST
 on:
   schedule:
-    - cron: "5 * * * THU,SAT"
+    - cron: "25 * * * THU,SAT"
 jobs:
   build:
     runs-on: ubuntu-latest
