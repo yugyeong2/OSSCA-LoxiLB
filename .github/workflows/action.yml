@@ -1,7 +1,8 @@
 name: TEST
 on:
   schedule:
-    - cron: "25 * * * THU,SAT"
+    #- cron: "25 * * * THU,SAT"
+    #- cron: "*/5 * * * *"  # 5분마다 실행
 jobs:
   build:
     runs-on: ubuntu-latest
