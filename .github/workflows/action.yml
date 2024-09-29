@@ -1,12 +1,12 @@
-name: TEST
-on:
-  schedule:
-    #- cron: "25 * * * THU,SAT"
-    #- cron: "*/5 * * * *"  # 5분마다 실행
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Run a one-line script
-        run: echo "It's time to mentoring"
+# name: TEST
+# on:
+#   schedule:
+#     - cron: "25 * * * THU,SAT"
+#     #- cron: "*/5 * * * *"  # 5분마다 실행
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v4
+#       - name: Run a one-line script
+#         run: echo "It's time to mentoring"
